@@ -79,10 +79,10 @@ Make sure you have the following installed:
 ```
  
 # Troubleshooting
+```
 •	Service Not Found: Ensure that your services are running using kubectl get svc.
-•	Pod Not Starting: Check the logs of the pods for any issues:
-  kubectl logs <pod-name>
+•	Pod Not Starting: Check the logs of the pods for any issues: kubectl logs <pod-name>
 •	Minikube Not Accessible: If you're unable to access Minikube's IP from your browser, check that your firewall or network settings allow traffic on the required ports.
- 
+ ```
 # Conclusion
   By following the steps above, you should be able to test the frontend and backend services deployed on Minikube with Kubernetes. If you encounter any issues, check the troubleshooting       section or feel free to open an issue in this repository.
